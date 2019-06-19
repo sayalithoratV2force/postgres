@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @Controller
-@RequestMapping("/get")
+@RequestMapping("/")
 public class HomeController {
 
     private RecordRepository repository;
